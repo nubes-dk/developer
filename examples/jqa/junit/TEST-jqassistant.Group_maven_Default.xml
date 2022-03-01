@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_maven_Default" tests="1" failures="0" errors="0" time="0.0">
+    <testcase name="Concept_maven_ProjectArtifactDependencyDiagram" time="0.0" classname="jqassistant.Group_maven_Default"/>
+</testsuite>

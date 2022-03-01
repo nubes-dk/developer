@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_spring_Default" tests="20" failures="0" errors="0" time="2.0">
+    <testcase name="Concept_spring-data_ImplementedRepository" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Constraint_spring_RepositoryNameSuffix" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring-data_AnnotatedRepository" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_java_VirtualInvokes" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Constraint_spring_ControllerNameSuffix" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring-component_Service" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring_InhjectablesDiagram" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring_SequenceDiagram" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring-mvc_RestController" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring-component_Controller" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Constraint_spring_ImplementationDependencies" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring-injection_Injectable" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring-component_Component" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring-boot_Application" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring-component_Configuration" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring-component_Repository" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_java_MemberInheritedFrom" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_java_MethodOverrides" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Constraint_spring_ServiceNameSuffix" time="0.0" classname="jqassistant.Group_spring_Default"/>
+    <testcase name="Concept_spring-injection_BeanProducer" time="0.0" classname="jqassistant.Group_spring_Default"/>
+</testsuite>

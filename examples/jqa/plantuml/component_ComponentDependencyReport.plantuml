@@ -1,0 +1,14 @@
+@startuml
+skinparam componentStyle uml2
+  [org.springframework.samples.petclinic.system] <<Component Directory File Java Package>> as n22417
+  [org.springframework.samples.petclinic.vet] <<Component Directory File Java Package>> as n21653
+  [org.springframework.samples.petclinic.visit] <<Component Directory File Java Package>> as n22378
+  [org.springframework.samples.petclinic.model] <<Component Directory File Java Package>> as n22058
+  [org.springframework.samples.petclinic.owner] <<Component Directory File Java Package>> as n21806
+
+n21806 --> n22058 : depends on component (3)
+n21653 --> n22058 : depends on component (2)
+n21806 --> n22378 : depends on component (4)
+n22378 --> n22058 : depends on component (1)
+
+@enduml

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_spring-injection_Default" tests="12" failures="0" errors="0" time="0.0">
+    <testcase name="Concept_java_PostConstruct" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Constraint_spring-injection_FieldsOfInjectablesMustNotBeManipulated" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Concept_java_TypeAssignableFrom" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Constraint_spring-injection_InjectablesMustNotBeHeldInStaticVariables" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Constraint_spring-injection_AvoidAwareInterfacesInFavorOfInjection" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Constraint_spring-injection_AvoidInitializingBean" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Constraint_spring-injection_BeanProducerMustBeDeclaredInConfigurationComponent" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Concept_java_PreDestroy" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Constraint_spring-injection_InjectablesMustNotBeInstantiated" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Constraint_spring-injection_BeanProducerMustNotBeInvokedDirectly" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Constraint_spring-injection_InjectablesMustNotBeAccessedStatically" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+    <testcase name="Constraint_spring-injection_AvoidDisposableBean" time="0.0" classname="jqassistant.Group_spring-injection_Default"/>
+</testsuite>

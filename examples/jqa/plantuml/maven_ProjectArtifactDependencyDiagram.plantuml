@@ -1,0 +1,8 @@
+@startuml
+skinparam componentStyle uml2
+  [org.springframework.samples:spring-petclinic:jar:2.4.5] <<Artifact Directory File Java Main Maven>> as n21505
+  [org.springframework.samples:spring-petclinic:test-jar:2.4.5] <<Artifact Directory File Java Maven Test>> as n21506
+
+n21506 --> n21505 : depends on (compile)
+
+@enduml

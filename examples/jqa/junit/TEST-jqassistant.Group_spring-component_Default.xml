@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_spring-component_Default" tests="5" failures="1" errors="0" time="0.0">
+    <testcase name="Constraint_spring-component_ControllerMustOnlyDependOnServicesRepositories" time="0.0" classname="jqassistant.Group_spring-component_Default"/>
+    <testcase name="Concept_java_GeneratedType" time="0.0" classname="jqassistant.Group_spring-component_Default">
+        <failure message="Reports the count of types labeled with `Generated`, grouped by containing artifact."></failure>
+    </testcase>
+    <testcase name="Constraint_spring-component_RepositoryMustOnlyDependOnRepositories" time="0.0" classname="jqassistant.Group_spring-component_Default"/>
+    <testcase name="Constraint_spring-component_ServiceMustOnlyDependOnServicesRepositories" time="0.0" classname="jqassistant.Group_spring-component_Default"/>
+    <testcase name="Concept_java_VirtualDependsOn" time="0.0" classname="jqassistant.Group_spring-component_Default"/>
+</testsuite>

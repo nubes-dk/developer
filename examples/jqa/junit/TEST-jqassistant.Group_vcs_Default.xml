@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_vcs_Default" tests="3" failures="1" errors="0" time="0.0">
+    <testcase name="Concept_vcs_CurrentBranch" time="0.0" classname="jqassistant.Group_vcs_Default"/>
+    <testcase name="Concept_vcs_Authors" time="0.0" classname="jqassistant.Group_vcs_Default"/>
+    <testcase name="Constraint_vcs_BranchesMustBeSynchronized" time="0.0" classname="jqassistant.Group_vcs_Default">
+        <failure message="jQAssistant specific feature branches must include the latest commit (HEAD) of the jQAssistante base feature branch &quot;feature/jqassistant&quot;, i.e. merges are required into these branches.">BaseBranch = heads/feature/jqassistant
+OutdatedBranches = remotes/origin/feature/jqassistant-preview, remotes/origin/feature/jqassistant-remote, remotes/origin/feature/jqassistant-test-impact-analysis
+---
+BaseBranch = remotes/origin/feature/jqassistant
+OutdatedBranches = remotes/origin/feature/jqassistant-preview, remotes/origin/feature/jqassistant-remote, remotes/origin/feature/jqassistant-test-impact-analysis
+</failure>
+    </testcase>
+</testsuite>

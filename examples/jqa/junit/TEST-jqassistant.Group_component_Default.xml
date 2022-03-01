@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_component_Default" tests="6" failures="0" errors="0" time="1.0">
+    <testcase name="Concept_component_ComponentDependency" time="0.0" classname="jqassistant.Group_component_Default"/>
+    <testcase name="Concept_component_ComponentDependencyDefinition" time="0.0" classname="jqassistant.Group_component_Default"/>
+    <testcase name="Concept_component_ComponentDependencyReport" time="0.0" classname="jqassistant.Group_component_Default"/>
+    <testcase name="Concept_component_Component" time="0.0" classname="jqassistant.Group_component_Default"/>
+    <testcase name="Concept_component_ComponentDependencyGraphMLReport" time="0.0" classname="jqassistant.Group_component_Default"/>
+    <testcase name="Constraint_component_ComponentDependencyViolation" time="0.0" classname="jqassistant.Group_component_Default"/>
+</testsuite>

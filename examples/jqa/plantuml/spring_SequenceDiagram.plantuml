@@ -1,0 +1,10 @@
+@startuml
+skinparam componentStyle uml2
+participant "java.lang.String processNewVisitForm(org.springframework.samples.petclinic.visit.Visit,org.springframework.validation.BindingResult)" as n22368 <<ByteCode>> <<Java>> <<Member>> <<Method>>
+participant "boolean hasErrors()" as n21981 <<ByteCode>> <<Java>> <<Member>> <<Method>>
+participant "void save(org.springframework.samples.petclinic.visit.Visit)" as n22375 <<ByteCode>> <<Java>> <<Member>> <<Method>>
+
+n22368 -> n21981 : VIRTUAL_INVOKES
+n22368 -> n22375 : INVOKES
+
+@enduml

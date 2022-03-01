@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_jqassistant-dashboard_Default" tests="7" failures="0" errors="0" time="0.0">
+    <testcase name="Concept_jqassistant-dashboard_GitDuplicateAuthorsByEmail" time="0.0" classname="jqassistant.Group_jqassistant-dashboard_Default"/>
+    <testcase name="Concept_jqassistant-dashboard_GitTimeTree" time="0.0" classname="jqassistant.Group_jqassistant-dashboard_Default"/>
+    <testcase name="Concept_jqassistant-dashboard_GitDuplicateAuthorsByName" time="0.0" classname="jqassistant.Group_jqassistant-dashboard_Default"/>
+    <testcase name="Concept_jqassistant-dashboard_FileType" time="0.0" classname="jqassistant.Group_jqassistant-dashboard_Default"/>
+    <testcase name="Concept_jqassistant-dashboard_GitMergeCommit" time="0.0" classname="jqassistant.Group_jqassistant-dashboard_Default"/>
+    <testcase name="Concept_jqassistant-dashboard_TypeHasSourceGitFile" time="0.0" classname="jqassistant.Group_jqassistant-dashboard_Default"/>
+    <testcase name="Concept_jqassistant-dashboard_GitFileName" time="0.0" classname="jqassistant.Group_jqassistant-dashboard_Default"/>
+</testsuite>

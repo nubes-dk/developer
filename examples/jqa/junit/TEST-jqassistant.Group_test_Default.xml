@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_test_Default" tests="5" failures="1" errors="0" time="0.0">
+    <testcase name="Constraint_test_TestMethodWithoutAssertion" time="0.0" classname="jqassistant.Group_test_Default"/>
+    <testcase name="Constraint_junit_IgnoreWithoutMessage" time="0.0" classname="jqassistant.Group_test_Default">
+        <failure message="All @Ignore annotations must provide a message.">IgnoreWithoutMessage = org.springframework.samples.petclinic.system.CrashControllerTests
+</failure>
+    </testcase>
+    <testcase name="Concept_junit4_TestMethod" time="0.0" classname="jqassistant.Group_test_Default"/>
+    <testcase name="Concept_spring-test-web_Assert" time="0.0" classname="jqassistant.Group_test_Default"/>
+    <testcase name="Concept_assertj_AssertMethod" time="0.0" classname="jqassistant.Group_test_Default"/>
+</testsuite>

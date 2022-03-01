@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_model_Default" tests="2" failures="1" errors="0" time="0.0">
+    <testcase name="Constraint_model_JpaEntityInModelPackage" time="0.0" classname="jqassistant.Group_model_Default">
+        <failure message="All JPA entities must be located in packages named &quot;model&quot;.">EntityInWrongPackage = org.springframework.samples.petclinic.vet.Vet
+---
+EntityInWrongPackage = org.springframework.samples.petclinic.vet.Specialty
+---
+EntityInWrongPackage = org.springframework.samples.petclinic.owner.Owner
+---
+EntityInWrongPackage = org.springframework.samples.petclinic.owner.PetType
+---
+EntityInWrongPackage = org.springframework.samples.petclinic.owner.Pet
+---
+EntityInWrongPackage = org.springframework.samples.petclinic.visit.Visit
+</failure>
+    </testcase>
+    <testcase name="Concept_jpa2_Entity" time="0.0" classname="jqassistant.Group_model_Default"/>
+</testsuite>

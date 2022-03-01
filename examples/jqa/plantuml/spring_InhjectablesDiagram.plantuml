@@ -1,0 +1,47 @@
+@startuml
+skinparam componentStyle uml2
+package n21652 as "org.springframework.samples.petclinic"{
+  package n21653 as "org.springframework.samples.petclinic.vet"{
+    +interface n21723 as "org.springframework.samples.petclinic.vet.VetRepository"{
+    }
+    ~class n21764 as "org.springframework.samples.petclinic.vet.VetController"{
+    }
+}
+  +class n21796 as "org.springframework.samples.petclinic.PetClinicApplication"{
+  }
+  package n21806 as "org.springframework.samples.petclinic.owner"{
+    +interface n21807 as "org.springframework.samples.petclinic.owner.OwnerRepository"{
+    }
+    +interface n21845 as "org.springframework.samples.petclinic.owner.PetRepository"{
+    }
+    +class n21836 as "org.springframework.samples.petclinic.owner.PetTypeFormatter"{
+    }
+    ~class n21902 as "org.springframework.samples.petclinic.owner.PetController"{
+    }
+    ~class n22109 as "org.springframework.samples.petclinic.owner.OwnerController"{
+    }
+    ~class n22317 as "org.springframework.samples.petclinic.owner.VisitController"{
+    }
+}
+  package n22417 as "org.springframework.samples.petclinic.system"{
+    ~class n22049 as "org.springframework.samples.petclinic.system.CrashController"{
+    }
+    ~class n22418 as "org.springframework.samples.petclinic.system.CacheConfiguration"{
+    }
+    ~class n22443 as "org.springframework.samples.petclinic.system.WelcomeController"{
+    }
+}
+  package n22378 as "org.springframework.samples.petclinic.visit"{
+    +interface n22115 as "org.springframework.samples.petclinic.visit.VisitRepository"{
+    }
+}
+}
+n21764 -> n21723 : -vets
+n21836 -> n21845 : -pets
+n21902 -> n21807 : -owners
+n21902 -> n21845 : -pets
+n22109 -> n21807 : -owners
+n22109 -> n22115 : -visits
+n22317 -> n21845 : -pets
+n22317 -> n22115 : -visits
+@enduml

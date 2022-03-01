@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_spring-transaction_Default" tests="3" failures="0" errors="0" time="0.0">
+    <testcase name="Concept_spring-transaction_TransactionalClass" time="0.0" classname="jqassistant.Group_spring-transaction_Default"/>
+    <testcase name="Concept_spring-transaction_TransactionalMethod" time="0.0" classname="jqassistant.Group_spring-transaction_Default"/>
+    <testcase name="Constraint_spring-transaction_TransactionalMethodMustNotBeInvokedFromSameClass" time="0.0" classname="jqassistant.Group_spring-transaction_Default"/>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="jqassistant.Group_spring-injection_Strict" tests="5" failures="1" errors="0" time="0.0">
+    <testcase name="Constraint_spring-injection_JdkClassesMustNotBeInjectables" time="0.0" classname="jqassistant.Group_spring-injection_Strict"/>
+    <testcase name="Constraint_spring-injection_InjectablesMustOnlyBeHeldInInjectables" time="0.0" classname="jqassistant.Group_spring-injection_Strict"/>
+    <testcase name="Concept_spring-injection_InjectionPoint" time="0.0" classname="jqassistant.Group_spring-injection_Strict"/>
+    <testcase name="Constraint_spring-injection_FieldInjectionIsNotAllowed" time="0.0" classname="jqassistant.Group_spring-injection_Strict"/>
+    <testcase name="Constraint_spring-injection_InjectablesShouldBeHeldInFinalFields" time="0.0" classname="jqassistant.Group_spring-injection_Strict">
+        <failure message="Fields holding injectables should be declared final.">InjectableType = org.springframework.samples.petclinic.owner.OwnerController
+InjectableField = org.springframework.samples.petclinic.visit.VisitRepository visits
+</failure>
+    </testcase>
+</testsuite>
